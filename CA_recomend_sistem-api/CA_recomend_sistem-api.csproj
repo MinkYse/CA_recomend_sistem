@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ca_recomend_sistem.Api</RootNamespace>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CA_recomend_sistem-Application/\CA_recomend_sistem-Application.csproj" />
+    <ProjectReference Include="..\CA_recomend_sistem-core\CA_recomend_sistem-core.csproj" />
+    <ProjectReference Include="..\CA_recomend_sistem-infrastructure\CA_recomend_sistem-infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
