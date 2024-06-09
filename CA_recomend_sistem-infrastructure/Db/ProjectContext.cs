@@ -35,6 +35,6 @@ namespace CA_recomend_sistem.Infrastructure.Db
             base.OnConfiguring(optionsBuilder);
         }
 
-        public ProjectContext() => Database.Migrate(); // todo shit to fix
+        public ProjectContext() => Database.Migrate();
     }
 }
